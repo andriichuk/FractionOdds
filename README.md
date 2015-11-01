@@ -31,9 +31,6 @@ Also it's certainly possible to launch a web server:
 sbt run
 ```
 After that you'll be able to get/post requests to the running server. E.g. for default [f1.csv](f1.csv) and [f2.csv](f2.csv) files, the following sequence should hold true:
-1. **GET** http://127.0.0.1:8080/4. 
-**Result**: *<xml>45</xml>*
-2. **POST** http://127.0.0.1:8080/ *<xml><v2>2</v2><v3>3</v3><v4>4</v4></xml>*. 
-**Result**: *<xml>0</xml>*
-3. **GET** http://127.0.0.1:8080/4. 
-**Result**: *<xml>6</xml>*
+1. **GET** http://127.0.0.1:8080/4. **Result**: *<xml>45</xml>*
+2. **POST** http://127.0.0.1:8080/ *<xml><v2>2</v2><v3>3</v3><v4>4</v4></xml>*. **Result**: *<xml>0</xml>*
+3. **GET** http://127.0.0.1:8080/4. **Result**: *<xml>6</xml>*
