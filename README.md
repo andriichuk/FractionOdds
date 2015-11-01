@@ -4,9 +4,9 @@ High-loaded multi-user REST service performing calculation of 'special' coeffici
 
 ## Toolkit
 [Spray](http://spray.io) toolit was chosen for implementation due to the following reasons: 
-1. Lightweight.
-2. Provides intuitive DSL for defining routes.
-3. Actor-based, which in turn, provide a concrete approach to building [reactive](http://www.reactivemanifesto.org) systems. That was a large advantage over [Scalatra](http://www.scalatra.org).
+* Lightweight.
+* Provides intuitive DSL for defining routes.
+* Actor-based, which in turn, provide a concrete approach to building [reactive](http://www.reactivemanifesto.org) systems. That was a large advantage over [Scalatra](http://www.scalatra.org).
 
 ## Tech
 The service uses two files for processing requests:
